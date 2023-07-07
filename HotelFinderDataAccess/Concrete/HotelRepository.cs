@@ -20,6 +20,12 @@ namespace HotelFinderDataAccess.Concrate
             }
         }
 
+
+
+
+
+
+
         public void DeleteHotel(int id)
         {
             using (var hotelDbContext = new HotelDbContext())
