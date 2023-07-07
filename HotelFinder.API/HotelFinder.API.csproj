@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSwag.AspNetCore" Version="13.19.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HotelFinder.Business\HotelFinder.Business.csproj" />
+    <ProjectReference Include="..\HotelFinderEntities\HotelFinderEntities.csproj" />
+  </ItemGroup>
+
+</Project>
